@@ -17,33 +17,33 @@ r = 0
 h = 0
 
 if x == 1:
-    g = +1
-    r = +1
+    g += 1
+    r += 1
 elif x == 2:
-    s = +1
-    h = +1
+    s += 1
+    h += 1
 else:
     print("Invalid Input. Run the program again.")
 
 if z == 1:
-    h = +2
+    h += 2
 elif z == 2:
-    s = +2
+    s += 2
 elif z == 3:
-    r = +2
+    r += 2
 elif z == 4:
-    g = +2
+    g += 2
 else:
     print("Invalid Input. Run the program again.")
 
 if y == 1:
-    s = +4
+    s += 4
 elif y == 2:
-    h = +4
+    h += 4
 elif y == 3:
-    r = +4
+    r += 4
 elif y == 4:
-    g = +4
+    g += 4
 else:
     print("Invalid Input. Run the program again.")
 
@@ -59,5 +59,6 @@ elif r > s and r > g and r > h:
     print("You belong to Ravenclaw.")
 else:
     print("Error. Run the code again.")
+
 
 
