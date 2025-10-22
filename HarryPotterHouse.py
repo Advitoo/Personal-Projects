@@ -1,4 +1,4 @@
-# Write code below 💖
+import sys
 
 print("Q1) Do you like Dawn or Dusk?\n1) Dawn\n2) Dusk")
 
@@ -24,6 +24,7 @@ elif x == 2:
     h += 1
 else:
     print("Invalid Input. Run the program again.")
+    sys.exit()
 
 if z == 1:
     h += 2
@@ -35,6 +36,7 @@ elif z == 4:
     g += 2
 else:
     print("Invalid Input. Run the program again.")
+    sys.exit()
 
 if y == 1:
     s += 4
@@ -46,6 +48,7 @@ elif y == 4:
     g += 4
 else:
     print("Invalid Input. Run the program again.")
+    sys.exit()
 
 print(f"Slytherin:{s} Hufflepuff:{h} Ravenclaw:{r} Gryffindor:{g}")
 
@@ -59,6 +62,8 @@ elif r > s and r > g and r > h:
     print("You belong to Ravenclaw.")
 else:
     print("Error. Run the code again.")
+    sys.exit()
+
 
 
 
